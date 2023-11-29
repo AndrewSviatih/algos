@@ -3,8 +3,8 @@
 
 int binary_search(int arr[NMAX], int target);
 
-int main (){
-    int arr[NMAX] = {1,2,3,4,5,6,7,8,9,10};
+int main() {
+    int arr[NMAX] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int res = binary_search(arr, 4);
 
     printf("%d", res);
